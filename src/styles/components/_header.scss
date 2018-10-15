@@ -1,0 +1,25 @@
+.header {
+    background: $off-black;
+    color:white;
+    margin-bottom:$xl-size;
+    padding:$m-size 0;
+    /*targets nested elements*/
+    /*h1{
+        color:red;
+    }*/
+}
+
+/* BEM naming block element modifier
+__ allows us to describe what were selecting */
+
+.header__title{
+    font-size:$l_size;
+    margin:0;
+}
+
+.header__subtitle{
+    color:$off-white;
+    font-size:$m-size;
+    font-weight: 500;
+    margin:0;
+}

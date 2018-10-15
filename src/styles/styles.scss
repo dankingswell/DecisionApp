@@ -1,0 +1,21 @@
+/* import styntax
+leave off _ and file extension
+*/
+
+/*? in regex for test will allows css to render */
+
+
+// stores variables used in other sheets 
+@import "./base/_settings.scss";
+@import "./base/base";
+
+@import "./components/_addoption.scss";
+@import "./components/_application.scss";
+@import "./components/_button.scss";
+@import "./components/_container.scss";
+@import "./components/_modal.scss";
+@import "./components/_header.scss";
+@import "./components/_option.scss";
+@import "./components/_widget.scss";
+
+
